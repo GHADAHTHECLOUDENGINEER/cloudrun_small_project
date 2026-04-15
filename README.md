@@ -10,7 +10,6 @@ This project demonstrates the end-to-end process of containerizing a web applica
 *   **Google Cloud Run**: For serverless container execution.
 
 ## 💻 Terminal Workflow & Commands
-
 Here is the step-by-step technical process I followed:
 
 ### 1. Preparing the Image
@@ -33,9 +32,8 @@ docker push gcr.io/your-project-id/my-app-linkin
 
 5. Deployment on Cloud Run
 Finally, I deployed the service through the GCP Console with the following configurations:
-- Authentication: Enabled "Allow unauthenticated invocations" for public access.
-- Region: Selected the closest region for low latency.
-
+Authentication: Enabled "Allow unauthenticated invocations" for public access.
+Region: Selected the closest region for low latency.
 🎯 Key Learning Outcomes
 Understanding the difference between Docker Images and Containers.
 Managing Cloud Artifacts and Repositories.
